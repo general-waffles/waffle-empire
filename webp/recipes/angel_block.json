@@ -1,0 +1,29 @@
+{
+"format_version": "1.12",
+"minecraft:recipe_shaped": {
+"description": {
+    "identifier": "we:angel_block"
+    },
+"tags": [ "crafting_table" ],
+"pattern": [
+"BBB",
+"ACA",
+"BBB"
+                ],
+    "key": {
+        "C": {
+            "item": "minecraft:gold_nugget"
+        },
+        "A": {
+            "item": "minecraft:feather"
+        },
+        "B": {
+            "item": "minecraft:obsidian"
+        }
+        },
+"result": {
+      "item": "we:angel_block",
+      "count": 1
+        }
+    }
+}

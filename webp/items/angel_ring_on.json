@@ -1,0 +1,15 @@
+
+{
+    "format_version": "1.12.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "we:angel_ring_on"
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:stacked_by_data": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:foil": true
+        }
+    }
+}

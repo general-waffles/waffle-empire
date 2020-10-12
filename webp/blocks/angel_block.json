@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "description": {
+           	"identifier": "we:angel_block",
+            "is_experimental": false,
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:destroy_time": 5,
+            "minecraft:explosion_resistance": 10,
+            "minecraft:map_color": "#8B0000",
+            "minecraft:block_light_absorption": 0,
+            "minecraft:block_light_emission": 0.50
+        }
+    }
+}

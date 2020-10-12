@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "we:angel_ring_off"
+    },   
+     "tags": [ "crafting_table" ],
+    "ingredients": [
+{
+        "item": "we:angel_ring_on",
+        "count": 1
+      }
+],
+    "result": {
+      "item": "we:angel_ring_off",
+      "count": 1
+    }
+  }
+}

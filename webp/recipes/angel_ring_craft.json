@@ -1,0 +1,29 @@
+{
+"format_version": "1.12",
+"minecraft:recipe_shaped": {
+"description": {
+    "identifier": "we:angel_ring_craft"
+    },
+"tags": [ "crafting_table" ],
+"pattern": [
+"ABA",
+"C C",
+"CCC"
+                ],
+    "key": {
+        "C": {
+            "item": "minecraft:gold_nugget"
+        },
+        "A": {
+            "item": "minecraft:feather"
+        },
+        "B": {
+            "item": "minecraft:netherstar"
+        }
+        },
+"result": {
+      "item": "we:angel_ring_on",
+      "count": 1
+        }
+    }
+}

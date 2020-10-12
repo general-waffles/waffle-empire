@@ -1,0 +1,117 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "we:among_us_orange_imposter",
+         "is_spawnable":true,
+         "is_summonable":true,
+         "is_experimental":false
+    },
+    "components": {
+        "minecraft:experience_reward": {
+          "on_bred": "Math.Random(1,50)",
+          "on_death": "query.last_hit_by_player ? Math.Random(5,30) : 0"
+        },
+      "minecraft:fire_immune": true,
+      "minecraft:burns_in_daylight": false,
+      "minecraft:type_family": {
+        "family": [ "monster" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.5
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/dead.json"
+      },
+      "minecraft:health": {
+        "value": 25,
+		"max": 25
+      },
+      "minecraft:attack": {
+        "damage": 8
+	  },
+      "minecraft:movement": {
+        "value": {
+          "range_min": 0.15, 
+          "range_max": 0.15
+        }
+      },
+      "minecraft:navigation.walk": {
+        "can_float": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 30.0,
+        "max_distance": 30.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.break_door": {
+        "priority": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 1,
+        "speed_multiplier": 1.4,
+        "track_target": false
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.7
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "within_radius": 7.5,
+        "entity_types": [
+          {
+            "filters": { "other_with_families": [ "player", "crewmate" ] },
+            "max_dist": 7.5
+          }
+        ]
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+    "events": {}
+  }
+}
