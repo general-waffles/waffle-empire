@@ -1,0 +1,81 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+  "texture_data": {
+    "angel_ring_on": {
+      "textures": "textures/items/angel_ring_on"
+    },
+    "angel_ring_off": {
+      "textures": "textures/items/angel_ring_off"
+    },
+    "woffel": {
+      "textures": "textures/items/woffel"
+    },
+    "egg_pets": {
+      "textures": "textures/items/egg_pets"
+    },
+    "among_us_red_item": {
+      "textures": "textures/items/among_us_red_item"
+    },
+    "among_us_green_item": {
+      "textures": "textures/items/among_us_green_item"
+    },
+    "among_us_blue_item": {
+      "textures": "textures/items/among_us_blue_item"
+    },
+    "among_us_yellow_item": {
+      "textures": "textures/items/among_us_yellow_item"
+    },
+    "among_us_white_item": {
+      "textures": "textures/items/among_us_white_item"
+    },
+    "among_us_orange_item": {
+      "textures": "textures/items/among_us_orange_item"
+    },
+    "among_us_black_item": {
+      "textures": "textures/items/among_us_black_item"
+    },
+    "among_us_pink_item": {
+      "textures": "textures/items/among_us_pink_item"
+    },
+    "among_us_dark_green_item": {
+      "textures": "textures/items/among_us_dark_green_item"
+    },
+    "among_us_purple_item": {
+      "textures": "textures/items/among_us_purple_item"
+    },
+    "egg_pink": {
+      "textures": "textures/items/egg_pink"
+    },
+    "egg_white": {
+      "textures": "textures/items/egg_white"
+    },
+    "egg_black": {
+      "textures": "textures/items/egg_black"
+    },
+    "egg_dark_green": {
+      "textures": "textures/items/egg_dark_green"
+    },
+    "egg_brown": {
+      "textures": "textures/items/egg_brown"
+    },
+    "egg_purple": {
+      "textures": "textures/items/egg_purple"
+    },
+    "egg_orange": {
+      "textures": "textures/items/egg_orange"
+    },
+    "egg_yellow": {
+      "textures": "textures/items/egg_yellow"
+    },
+    "egg_green": {
+      "textures": "textures/items/egg_green"
+    },
+    "egg_red": {
+      "textures": "textures/items/egg_red"
+    },
+    "egg_blue": {
+      "textures": "textures/items/egg_blue"
+    }
+  }
+}
