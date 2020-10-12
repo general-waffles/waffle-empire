@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "we:among_us_orange_skin",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "among_us_orange_item",
+      "minecraft:render_offsets": "flesh"
+    }
+  }
+}

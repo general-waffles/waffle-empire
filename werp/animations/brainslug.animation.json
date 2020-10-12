@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.brainslug.walk": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"leg0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0333": [0, 360, 0]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0333": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

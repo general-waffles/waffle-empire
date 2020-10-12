@@ -1,0 +1,9 @@
+{
+  "materials": {
+    "version": "1.12.0",
+    "po_fasetres:entity": {},
+	"pomonster:entity": {},
+	"po_faseuno:entity": {},
+	"laalaa:entity": {}
+  }
+}

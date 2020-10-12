@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "we:woffel",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": "woffel",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

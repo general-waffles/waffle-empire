@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+  "header": {
+    "name": "Waffle Empire 1.0.1 Resources",
+    "description": "Waffle Empire 1.0.1 Resources",
+    "uuid": "657d4aa4-a6a7-4091-a012-a24deb799d76",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+	"modules": [
+    {
+      "type": "resources",
+      "uuid": "2d4b4271-8755-404f-9f5b-c66d5739edb9",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+	]
+}

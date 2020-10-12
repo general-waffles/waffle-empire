@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.among_us",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-4, 6, -3], "size": [8, 10, 6], "uv": [0, 0]},
+						{"origin": [-4, 6, 2.7], "size": [8, 8, 3], "inflate": -0.25, "uv": [42, 0]},
+						{"origin": [-3, 11, -4], "size": [6, 4, 2], "inflate": -0.25, "uv": [41, 18]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"pivot": [-1.5, 6, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [3, 6, 4], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"pivot": [1.5, 6, 0],
+					"cubes": [
+						{"origin": [1, 0, -2], "size": [3, 6, 4], "uv": [0, 27]}
+					]
+				}
+			]
+		}
+	]
+}

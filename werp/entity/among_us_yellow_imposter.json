@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "we:among_us_yellow_imposter",
+			"materials": {
+				"default": "iron_golem"
+			},
+			"textures": {
+				"default": "textures/entity/among_us/among_us_yellow"
+			},
+			"geometry": {
+				"default": "geometry.among_us"
+			},
+			"animations": {
+				"walk": "animation.humano2.walk",
+				"move": "animation.tubby.none",
+				"attack": "animation.humano2.attack",
+				"flower": "animation.humano2.flower",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.humano.move"
+				},
+				{
+					"arm": "controller.animation.humano.arm_movement"
+				}
+			],
+			"render_controllers": [
+				"controller.render.humano"
+			],
+			"spawn_egg": {
+				"texture": "egg_yellow",
+				"texture_index": 0
+			}
+		}
+	}
+}
