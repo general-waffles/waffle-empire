@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/blocks/block_raspberry"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "we:raspberry"
+      }
+    },
+    "result": [
+      {"item": "we:block_raspberry","count": 1}
+    ]
+  }
+}

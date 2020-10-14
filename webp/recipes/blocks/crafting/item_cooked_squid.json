@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/items/block_cooked_squid"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "we:block_cooked_squid"
+      }
+    },
+    "result": [
+      {"item": "we:fried_squid","count": 9}
+    ]
+  }
+}

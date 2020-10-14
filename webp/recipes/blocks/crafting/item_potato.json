@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/items/block_potato"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "we:block_potato"
+      }
+    },
+    "result": [
+      {"item": "minecraft:potato","count": 9}
+    ]
+  }
+}

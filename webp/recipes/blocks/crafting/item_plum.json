@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/items/block_plum"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "we:block_plum"
+      }
+    },
+    "result": [
+      {"item": "we:plum","count": 9}
+    ]
+  }
+}

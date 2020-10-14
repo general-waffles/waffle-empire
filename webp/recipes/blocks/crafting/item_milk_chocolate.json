@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/items/block_milk_chocolate"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "we:block_milk_chocolate"
+      }
+    },
+    "result": [
+      {"item": "we:milk_chocolate","count": 9}
+    ]
+  }
+}

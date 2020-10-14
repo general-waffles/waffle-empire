@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/items/block_apple"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "we:block_apple"
+      }
+    },
+    "result": [
+      {"item": "minecraft:apple","count": 9}
+    ]
+  }
+}

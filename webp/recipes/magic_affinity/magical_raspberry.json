@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:crafting/magical_raspberry"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "#A#",
+      "###"
+    ],
+    "key": {
+      "A": {
+        "item": "we:raspberry"
+      },
+      "#": {
+        "item": "we:magical_ingot"
+      }
+    },
+    "result": [
+      { "item": "we:magical_raspberry" }
+    ]
+  }
+}
