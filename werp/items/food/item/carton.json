@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "we:carton",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "carton",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}
