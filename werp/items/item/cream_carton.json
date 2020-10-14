@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "we:cream_carton",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "cream_carton",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

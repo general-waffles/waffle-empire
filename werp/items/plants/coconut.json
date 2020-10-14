@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "we:coconut",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "coconut"
+      
+    }
+  }
+}

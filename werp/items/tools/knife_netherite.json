@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "we:knife_netherite",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "knife_netherite"
+      
+    }
+  }
+}
