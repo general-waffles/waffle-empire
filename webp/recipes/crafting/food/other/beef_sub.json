@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/beef_sub"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#p",
+      "XY",
+      "ZA"
+    ],
+    "key": {
+      "#": {
+        "item": "we:butter"
+      },
+      "P": {
+        "item": "we:lettuce"
+      },
+      "X": {
+        "item": "minecraft:cooked_beef"
+      },
+      "Y": {
+        "item": "we:tomato"
+      },
+      "Z": {
+        "item": "we:sub_wrapping"
+      },
+      "A": {
+        "item": "we:sub_bun"
+      }
+    },
+    "result": {
+      "item": "we:beef_sub"
+    }
+  }
+}

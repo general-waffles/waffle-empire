@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/raw_hamburger_patty"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:beef"
+      }
+    },
+    "result": {
+      "item": "we:raw_hamburger_patty", "count": 4
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/chicken_select"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "P": {
+        "item": "we:chicken_select_box"
+      }
+    },
+    "result": {
+      "item": "we:chicken_select"
+    }
+  }
+}

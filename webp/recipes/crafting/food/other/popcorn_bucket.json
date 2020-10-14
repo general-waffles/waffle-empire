@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/popcorn_bucket"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "we:empty_popcorn_bucket"
+      },
+      "P": {
+        "item": "we:corn"
+      },
+      "X": {
+        "item": "minecraft:bucket",
+        "data": 10
+      }
+    },
+    "result": {
+      "item": "we:popcorn_bucket"
+    }
+  }
+}

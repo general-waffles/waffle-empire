@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/bacon_egg_muffin"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P",
+      "  ",
+      " A"
+    ],
+    "key": {
+      "#": {
+        "item": "we:muffin_bun"
+      },
+      "P": {
+        "item": "we:fried_egg"
+      },
+      "A": {
+        "item": "we:cooked_bacon"
+      }
+    },
+    "result": {
+      "item": "we:bacon_egg_muffin"
+    }
+  }
+}

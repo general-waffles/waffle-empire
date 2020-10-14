@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/hamburger"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " #P",
+      " AB",
+      "CXY"
+    ],
+    "key": {
+      "#": {
+        "item": "we:burger_bun"
+      },
+      "P": {
+        "item": "we:tomato"
+      },
+      "A": {
+        "item": "we:lettuce"
+      },
+      "B": {
+        "item": "we:onion"
+      },
+      "C": {
+        "item": "minecraft:pickles"
+      },
+      "X": {
+        "item": "minecraft:hamburger_patty"
+      },
+      "Y": {
+        "item": "minecraft:cheese_wedge"
+      }
+    },
+    "result": {
+      "item": "we:hamburger"
+    }
+  }
+}

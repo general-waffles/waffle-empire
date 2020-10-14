@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/icecream_banana"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "P ",
+      "#X",
+      "Y "
+    ],
+    "key": {
+      "#": {
+        "item": "we:banana"
+      },
+      "P": {
+        "item": "we:cream_carton"
+      },
+      "X": {
+        "item": "minecraft:ice"
+      },
+      "Y": {
+        "item": "we:icecream_cone"
+      }
+    },
+    "result": [
+      {
+        "item": "we:icecream_banana"
+      },
+      {
+        "item": "we:carton"
+      }
+    ]
+  }
+}

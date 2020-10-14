@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/turkish_delight"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P"
+    ],
+    "key": {
+      "#": {
+        "item": "we:flour"
+      },
+      "P": {
+        "item": "we:gelatin"
+      }
+    },
+    "result": [
+      {
+        "item": "we:turkish_delight"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/kebab"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P",
+      "XY",
+      "ZA"
+    ],
+    "key": {
+      "#": {
+        "item": "we:pitta_bread"
+      },
+      "P": {
+        "item": "we:tomato"
+      },
+      "X": {
+        "item": "we:lettuce"
+      },
+      "Y": {
+        "item": "we:onion"
+      },
+      "Z": {
+        "item": "minecraft:muttoncooked"
+      },
+      "A": {
+        "item": "minecraft:cooked_chicken"
+      }
+    },
+    "result": {
+      "item": "we:kebab"
+    }
+  }
+}

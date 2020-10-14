@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+  "description": {
+    "identifier": "we:craft/onigiri"
+    },
+   "tags": [ "crafting_table" ],
+   "ingredients": [
+    {
+      "item": "we:rice"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "we:salt"
+    }
+  ],
+  "result": {
+        "item": "we:onigiri"
+      }
+    }
+  }

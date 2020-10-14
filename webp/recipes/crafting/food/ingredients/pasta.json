@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/pasta"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "we:salt"
+      },
+      "P": {
+        "item": "we:flour"
+      },
+      "X": {
+        "item": "minecraft:egg"
+      }
+    },
+    "result": [
+      {
+        "item": "we:pasta"
+      }
+    ]
+  }
+}

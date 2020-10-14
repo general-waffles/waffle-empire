@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/pie_plum"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "###",
+      " P "
+    ],
+    "key": {
+      "#": {
+        "item": "we:plum"
+      },
+      "P": {
+        "item": "we:pie_base"
+      }
+    },
+    "result": {
+      "item": "we:pie_plum"
+    }
+  }
+}

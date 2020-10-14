@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/cheese_toastie"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P",
+      " X",
+      " P"
+    ],
+    "key": {
+      "#": {
+        "item": "we:butter"
+      },
+      "P": {
+        "item": "we:toast"
+      },
+      "X": {
+        "item": "we:cheese_wedge"
+      }
+    },
+    "result": {
+      "item": "we:cheese_toastie"
+    }
+  }
+}

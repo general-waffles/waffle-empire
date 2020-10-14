@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/sushi"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#PP",
+      "XXX"
+    ],
+    "key": {
+      "#": {
+        "item": "we:rice"
+      },
+      "P": {
+        "item": "minecraft:salmon"
+      },
+      "X": {
+        "item": "we:salt"
+      }
+    },
+    "result": {
+      "item": "we:sushi"
+    }
+  }
+}

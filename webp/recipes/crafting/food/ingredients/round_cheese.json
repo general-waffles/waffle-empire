@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/round_cheese"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#PX",
+      " Y "
+    ],
+    "key": {
+      "#": {
+        "item": "we:salt"
+      },
+      "P": {
+        "item": "minecraft:bucket",
+        "data": 1
+      },
+      "X": {
+        "item": "we:lemon"
+      },
+      "Y": {
+        "item": "minecraft:bucket",
+        "data": 10
+      }
+    },
+    "result": [
+      {
+        "item": "we:round_cheese"
+      },
+      {
+        "item": "minecraft:bucket", "count": 2 , "data": 0
+      }
+    ]
+  }
+}

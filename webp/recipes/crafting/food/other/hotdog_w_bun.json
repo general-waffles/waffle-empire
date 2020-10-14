@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/hotdog_w_bun"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P",
+      " A",
+      " B"
+    ],
+    "key": {
+      "#": {
+        "item": "we:hotdog_bun"
+      },
+      "P": {
+        "item": "we:ketchup"
+      },
+      "A": {
+        "item": "minecraft:onion"
+      },
+      "B": {
+        "item": "minecraft:cooked_hotdog_sausage"
+      }
+    },
+    "result": {
+      "item": "we:hotdog_w_bun"
+    }
+  }
+}

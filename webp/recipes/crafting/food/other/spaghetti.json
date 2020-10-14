@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/spaghetti"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#PX",
+      "YZA"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cooked_beef"
+      },
+      "P": {
+        "item": "we:pasta"
+      },
+      "X": {
+        "item": "we:tomato_puree"
+      },
+      "Y": {
+        "item": "we:tomato"
+      },
+      "Z": {
+        "item": "minecraft:bowl"
+      },
+      "A": {
+        "item": "we:onion"
+      }
+    },
+    "result": [
+      {
+        "item": "we:spaghetti"
+      },
+      {
+        "item": "we:jar"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/pickles"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P"
+    ],
+    "key": {
+      "#": {
+        "item": "we:bottled_white_wine"
+      },
+      "P": {
+        "item": "we:gherkin"
+      }
+    },
+    "result": [
+      {
+        "item": "we:pickles", "count": 6
+      }
+    ]
+  }
+}

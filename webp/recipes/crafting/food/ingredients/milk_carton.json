@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/milk_carton"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "bacon",
+    "pattern": [
+      "#P#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "we:carton"
+      },
+      "P": {
+        "item": "minecraft:bucket",
+        "data": 1
+      }
+    },
+    "result": [
+      {
+        "item": "we:milk_carton", "count": 5
+      },
+      {
+        "item": "minecraft:bucket", "count": 1 , "data": 0 
+      }
+    ]
+  }
+}

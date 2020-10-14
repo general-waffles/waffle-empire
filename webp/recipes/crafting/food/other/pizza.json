@@ -1,0 +1,41 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/pizza"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P ",
+      "XY ",
+      "ZAB"
+    ],
+    "key": {
+      "#": {
+        "item": "we:cheese_wedge"
+      },
+      "P": {
+        "item": "we:onion"
+      },
+      "X": {
+        "item": "minecraft:cooked_sausage"
+      },
+      "Y": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "Z": {
+        "item": "we:tomato"
+      },
+      "A": {
+        "item": "we:pizza_base"
+      },
+      "B": {
+        "item": "we:tomato_puree"
+      }
+    },
+    "result": {
+      "item": "we:pizza"
+    }
+  }
+}

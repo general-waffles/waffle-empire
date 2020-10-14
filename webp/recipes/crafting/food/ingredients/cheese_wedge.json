@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/cheese_wedge"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "we:round_cheese"
+      }
+    },
+    "result": [
+      {
+        "item": "we:cheese_wedge", "count": 6
+      }
+    ]
+  }
+}

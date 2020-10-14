@@ -1,0 +1,48 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/custard"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "PXY",
+      "ABC"
+    ],
+    "key": {
+      "#": {
+        "item": "we:vanilla_extract"
+      },
+      "P": {
+        "item": "we:egg"
+      },
+      "X": {
+        "item": "we:cream_carton"
+      },
+      "Y": {
+        "item": "we:cornflour"
+      },
+      "A": {
+        "item": "we:milk_carton"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      },
+      "C": {
+        "item": "minecraft:sugar"
+      },
+    },
+    "result": [
+      {
+        "item": "we:custard"
+      },
+      {
+        "item": "we:carton", "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/pie_pork"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cooked_porkchop"
+      },
+      "P": {
+        "item": "we:pie_base"
+      }
+    },
+    "result": {
+      "item": "we:pie_pork"
+    }
+  }
+}

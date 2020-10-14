@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/sausage_egg_sandwich"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P",
+      "XY",
+      " P"
+    ],
+    "key": {
+      "#": {
+        "item": "we:butter"
+      },
+      "P": {
+        "item": "we:cut_bread"
+      },
+      "X": {
+        "item": "we:cooked_sausage"
+      },
+      "Y": {
+        "item": "we:fried_egg"
+      }
+    },
+    "result": {
+      "item": "we:ssusage_egg_sandwich"
+    }
+  }
+}

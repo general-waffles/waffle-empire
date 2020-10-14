@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/jelly_sandwich"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#p",
+      "X ",
+      " P"
+    ],
+    "key": {
+      "#": {
+        "item": "we:butter"
+      },
+      "P": {
+        "item": "we:cut_bread"
+      },
+      "X": {
+        "item": "we:jam"
+      }
+    },
+    "result": {
+      "item": "we:jelly_sandwich"
+    }
+  }
+}
