@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/donut_plain"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#PX",
+      " YA"
+    ],
+    "key": {
+      "#": {
+        "item": "we:butter"
+      },
+      "P": {
+        "item": "minecraft:sugar"
+      },
+      "X": {
+        "item": "we:yeast"
+      },
+      "Y": {
+        "item": "we:flour"
+      },
+      "A": {
+        "item": "minecraft:egg"
+      }
+    },
+    "result": {
+      "item": "we:donut_plain"
+    }
+  }
+}

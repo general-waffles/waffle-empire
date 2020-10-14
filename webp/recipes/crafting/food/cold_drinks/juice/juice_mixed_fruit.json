@@ -1,0 +1,50 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/juice_mixed_fruit"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "Y#A",
+      " PB",
+      " XC"
+    ],
+    "key": {
+      "#": {
+        "item": "we:strawberry"
+      },
+      "P": {
+        "item": "minecraft:melon"
+      },
+      "X": {
+        "item": "we:empty_tumbler_glass"
+      },
+      "Y": {
+        "item": "minecraft:sweet_berries"
+      },
+      "A": {
+        "item": "we:grape"
+      },
+      "B": {
+        "item": "we:banana"
+      },
+      "C": {
+        "item": "minecraft:bucket",
+        "data": 8
+      }
+    },
+    "result": [
+      {
+        "item": "we:juice_mixed_fruit"
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0
+      }
+    ]
+  }
+}

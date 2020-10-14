@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/macchiato"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "# ",
+      "PX",
+      "YA"
+    ],
+    "key": {
+      "#": {
+        "item": "we:coffee_beans"
+      },
+      "P": {
+        "item": "minecraft:bucket",
+        "data": 8
+      },
+      "X": {
+        "item": "minecraft:sugar"
+      },
+      "Y": {
+        "item": "we:hot_beverage_cup"
+      },
+      "A": {
+        "item": "we:milk_carton"
+      }
+    },
+    "result": [
+      {
+        "item": "we:macchiato"
+      },
+      {
+        "item": "minecraft:bucket"
+      },
+      {
+        "item": "we:carton"
+      }
+    ]
+  }
+}

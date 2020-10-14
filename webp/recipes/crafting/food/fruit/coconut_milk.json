@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/coconut_milk"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P"
+    ],
+    "key": {
+      "#": {
+        "item": "we:coconut"
+      },
+      "P": {
+        "item": "we:bottle"
+      }
+    },
+    "result": [
+      {
+        "item": "we:coconut_milk"
+      }
+    ]
+  }
+}

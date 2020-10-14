@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/strawberry_jelly"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#PX",
+      "#YZ"
+    ],
+    "key": {
+      "#": {
+        "item": "we:strawberry"
+      },
+      "P": {
+        "item": "we:gelatin"
+      },
+      "X": {
+        "item": "minecraft:ice"
+      },
+      "Y": {
+        "item": "minecraft:bowl"
+      },
+      "Z": {
+        "item": "minecraft:bucket",
+        "data": 8
+      }
+    },
+    "result": [
+      {
+        "item": "we:strawberry_jelly"
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0
+      }
+    ]
+  }
+}

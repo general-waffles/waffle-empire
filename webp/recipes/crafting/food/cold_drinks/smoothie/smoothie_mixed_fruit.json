@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/smoothie_mixed_fruit"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "# ",
+      "YA",
+      "P "
+    ],
+    "key": {
+      "#": {
+        "item": "we:grape"
+      },
+      "Y": {
+        "item": "we:strawberry"
+      },
+      "A": {
+        "item": "minecraft:sweet_berries"
+      },
+      "P": {
+        "item": "we:empty_tumbler_glass"
+      }
+    },
+    "result": [
+      {
+        "item": "we:smoothie_mixed_fruit"
+      }
+    ]
+  }
+}

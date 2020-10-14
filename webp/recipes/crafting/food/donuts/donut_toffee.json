@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/donut_toffee"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "P",
+      "#",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "we:donut_plain"
+      },
+      "P": {
+        "item": "we:icing"
+      },
+      "X": {
+        "item": "we:toffee"
+      }
+    },
+    "result": {
+      "item": "we:donut_toffee"
+    }
+  }
+}

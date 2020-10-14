@@ -1,0 +1,44 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/dough"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "# ",
+      "PX",
+      "YA"
+    ],
+    "key": {
+      "#": {
+        "item": "we:flour"
+      },
+      "P": {
+        "item": "we:yeast"
+      },
+      "X": {
+        "item": "minecraft:sugar"
+      },
+      "Y": {
+        "item": "minecraft:bucket",
+        "data": 8
+      },
+      "A": {
+        "item": "we:salt"
+      }
+    },
+    "result": [
+      {
+        "item": "we:dough"
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0
+      }
+    ]
+  }
+}

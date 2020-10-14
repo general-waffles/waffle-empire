@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/smoothie_strawberry"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "##",
+      "##",
+      "P "
+    ],
+    "key": {
+      "#": {
+        "item": "we:strawberry"
+      },
+      "P": {
+        "item": "we:empty_tumbler_glass"
+      }
+    },
+    "result": [
+      {
+        "item": "we:smoothie_strawberry"
+      }
+    ]
+  }
+}

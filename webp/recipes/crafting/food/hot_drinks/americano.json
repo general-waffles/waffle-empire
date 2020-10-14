@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/americano"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "# ",
+      "PX",
+      "Y "
+    ],
+    "key": {
+      "#": {
+        "item": "we:coffee_beans"
+      },
+      "P": {
+        "item": "minecraft:bucket",
+        "data": 8
+      },
+      "X": {
+        "item": "minecraft:sugar"
+      },
+      "Y": {
+        "item": "we:hot_beverage_cup"
+      }
+    },
+    "result": [
+      {
+        "item": "we:americano"
+      },
+      {
+        "item": "minecraft:bucket"
+      }
+    ]
+  }
+}

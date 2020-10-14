@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/juice_lemon"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "we:lemon"
+      },
+      "P": {
+        "item": "we:empty_tumbler_glass"
+      },
+      "X": {
+        "item": "minecraft:bucket",
+        "data": 8
+      }
+    },
+    "result": [
+      {
+        "item": "we:juice_lemon"
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0
+      }
+    ]
+  }
+}

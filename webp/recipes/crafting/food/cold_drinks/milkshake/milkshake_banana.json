@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/milkshake_banana"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "##",
+      "P ",
+      "X "
+    ],
+    "key": {
+      "#": {
+        "item": "we:banana"
+      },
+      "P": {
+        "item": "we:beverage_cup"
+      },
+      "X": {
+        "item": "we:milk_carton"
+      }
+    },
+    "result": [
+      {
+        "item": "we:milkshake_banana"
+      },
+      {
+        "item": "we:carton"
+      }
+    ]
+  }
+}

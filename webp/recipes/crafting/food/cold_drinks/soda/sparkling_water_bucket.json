@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/sparkling_water_bucket"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P"
+    ],
+    "key": {
+      "#": {
+        "item": "we:yeast"
+      },
+      "P": {
+        "item": "minecraft:bucket",
+        "data": 8
+      }
+    },
+    "result": [
+      {
+        "item": "we:sparkling_water_bucket"
+      }
+    ]
+  }
+}

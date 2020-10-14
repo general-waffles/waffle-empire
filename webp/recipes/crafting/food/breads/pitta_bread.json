@@ -1,0 +1,47 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/pitta_bread"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P",
+      "XY",
+      "ZA"
+    ],
+    "key": {
+      "#": {
+        "item": "we:flour"
+      },
+      "P": {
+        "item": "we:oil"
+      },
+      "X": {
+        "item": "we:yeast"
+      },
+      "Y": {
+        "item": "minecraft:sugar"
+      },
+      "Z": {
+        "item": "we:bucket",
+        "data": 8
+      },
+      "A": {
+        "item": "we:salt"
+      }
+    },
+    "result": [
+      {
+        "item": "we:pitta_bread"
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0
+      }
+    ]
+  }
+}

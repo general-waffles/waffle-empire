@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/bottled_beer"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "alcohol",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "we:beer"
+      }
+    },
+    "result": {
+      "item": "we:bottled_beer"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/pink_cupcake"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      " # ",
+      "PXY",
+      "ABC"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dye",
+        "data": 9
+      },
+      "P": {
+        "item": "we:butter"
+      },
+      "X": {
+        "item": "minecraft:sugar"
+      },
+      "Y": {
+        "item": "we:vanilla_extract"
+      },
+      "A": {
+        "item": "we:icing"
+      },
+      "B": {
+        "item": "we:flour"
+      },
+      "C": {
+        "item": "minecraft:egg"
+      }
+    },
+    "result": {
+      "item": "we:pink_cupcake"
+    }
+  }
+}

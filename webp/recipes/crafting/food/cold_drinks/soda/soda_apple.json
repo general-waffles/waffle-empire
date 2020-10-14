@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/soda_apple"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:apple"
+      },
+      "P": {
+        "item": "we:soda_can_empty"
+      },
+      "X": {
+        "item": "we:sparkling_water_bucket"
+      }
+    },
+    "result": [
+      {
+        "item": "we:soda_apple"
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0
+      }
+    ]
+  }
+}

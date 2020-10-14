@@ -1,0 +1,51 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/waffle"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#P",
+      "XYZ",
+      "ABC"
+    ],
+    "key": {
+      "#": {
+        "item": "we:vanilla_extract"
+      },
+      "P": {
+        "item": "we:salt"
+      },
+      "X": {
+        "item": "we:milk_carton"
+      },
+      "Y": {
+        "item": "minecraft:egg"
+      },
+      "Z": {
+        "item": "minecraft:sugar"
+      },
+      "A": {
+        "item": "we:flour"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      },
+      "C": {
+        "item": "we:butter"
+      }
+    },
+    "result": [
+      {
+        "item": "we:waffle", "count": 2
+      },
+      {
+        "item": "we:carton"
+      }
+    ]
+  }
+}

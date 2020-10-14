@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/smoothie_banana"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "##",
+      "##",
+      "P "
+    ],
+    "key": {
+      "#": {
+        "item": "we:banana"
+      },
+      "P": {
+        "item": "we:empty_tumbler_glass"
+      }
+    },
+    "result": [
+      {
+        "item": "we:smoothie_banana"
+      }
+    ]
+  }
+}

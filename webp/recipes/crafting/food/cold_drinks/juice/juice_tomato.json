@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/juice_tomato"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "we:tomato"
+      },
+      "P": {
+        "item": "we:empty_tumbler_glass"
+      },
+      "X": {
+        "item": "minecraft:bucket",
+        "data": 8
+      }
+    },
+    "result": [
+      {
+        "item": "we:juice_tomato"
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0
+      }
+    ]
+  }
+}

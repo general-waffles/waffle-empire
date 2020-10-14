@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "we:craft/white_chocolate"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "PPP",
+      " #X",
+      " Y"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dye",
+        "data": 3
+      },
+      "P": {
+        "item": "minecraft:bucket",
+        "data": 1
+      },
+      "X": {
+        "item": "minecraft:sugar"
+      },
+      "Y": {
+        "item": "minecraft:bucket",
+        "data": 10
+      }
+    },
+    "result": [
+      {
+        "item": "we:white_chocolate"
+      },
+      {
+        "item": "minecraft:bucket", "count": 4,
+        "data": 0
+      }
+    ]
+  }
+}
