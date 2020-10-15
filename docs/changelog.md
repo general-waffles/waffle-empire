@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [BETA]
 
+## [Waffle Empire 1.0.02 - 2020-10-14
+### Added
+
+
 ## [Waffle Empire 1.0.1] - 2020-10-12
 ### Added
 - Green Impostor

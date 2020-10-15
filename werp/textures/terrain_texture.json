@@ -94,6 +94,6 @@
 		"bush_strawberry": { "textures": [ "textures/plant/blocks/leaves_strawberry" ] },
 		"bush_tea": { "textures": [ "textures/plant/blocks/leaves_tea" ] },
 		"bush_tomato": { "textures": [ "textures/plant/blocks/leaves_tomato" ] },
-		"bush_vanilla": { "textures": [ "textures/plant/blocks/leaves_vanilla" ] },
+		"bush_vanilla": { "textures": [ "textures/plant/blocks/leaves_vanilla" ] }
 	}
 }
