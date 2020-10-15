@@ -54,33 +54,33 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Waffle Empire 1.0.0] - 2020-10-10
 ### Added
 - Compressed Cobblestone
-    - ![cobble to 1 compress](images\recipes\cc\cc0.1.png)
-    - ![1 compress to cobble](images\recipes\cc\cc1.0.png)
+    - ![cobble to 1 compress](images/recipes/cc/cc0.1.png)
+    - ![1 compress to cobble](images/recipes/cc/cc1.0.png)
 - Double Compressed Cobblestone
-    - ![1 compress to 2 compress](images\recipes\cc\cc1.2.png)
-    - ![2 compress to 1 compress](images\recipes\cc\cc2.1.png)
+    - ![1 compress to 2 compress](images/recipes/cc/cc1.2.png)
+    - ![2 compress to 1 compress](images/recipes/cc/cc2.1.png)
 - Triple Compressed Cobblestone
-    - ![2 compress to 3 compress](images\recipes\cc\cc2.3.png)
-    - ![3 compress to 2 compress](images\recipes\cc\cc3.2.png)
+    - ![2 compress to 3 compress](images/recipes/cc/cc2.3.png)
+    - ![3 compress to 2 compress](images/recipes/cc/cc3.2.png)
 - Quadruple Compressed Cobblestone
-    - ![3 compress to 4 compress](images\recipes\cc\cc3.4.png)
-    - ![4 compress to 3 compress](images\recipes\cc\cc4.3.png)
+    - ![3 compress to 4 compress](images/recipes/cc/cc3.4.png)
+    - ![4 compress to 3 compress](images/recipes/cc/cc4.3.png)
 - Quintuple Compressed Cobblestone
-    - ![4 compress to 5 compress](images\recipes\cc\cc4.5.png)
-    - ![5 compress to 4 compress](images\recipes\cc\cc5.4.png)
+    - ![4 compress to 5 compress](images/recipes/cc/cc4.5.png)
+    - ![5 compress to 4 compress](images/recipes/cc/cc5.4.png)
 - Sextuple Compressed Cobblestone
-    - ![5 compress to 6 compress](images\recipes\cc\cc5.6.png)
-    - ![6 compress to 5 compress](images\recipes\cc\cc6.5.png)
+    - ![5 compress to 6 compress](images/recipes/cc/cc5.6.png)
+    - ![6 compress to 5 compress](images/recipes/cc/cc6.5.png)
 - Septuple Compressed Cobblestone
-    - ![6 compress to 7 compress](images\recipes\cc\cc6.7.png)
-    - ![7 compress to 6 compress](images\recipes\cc\cc7.6.png)
+    - ![6 compress to 7 compress](images/recipes/cc/cc6.7.png)
+    - ![7 compress to 6 compress](images/recipes/cc/cc7.6.png)
 - Octuple Compressed Cobblestone
-    - ![7 compress to 8 compress](images\recipes\cc\cc7.8.png)
-    - ![8 compress to 7 compress](images\recipes\cc\cc8.7.png)
+    - ![7 compress to 8 compress](images/recipes/cc/cc7.8.png)
+    - ![8 compress to 7 compress](images/recipes/cc/cc8.7.png)
 - Angel Block
 	- crouch to place it. not advisable to use in survival because you will fall and die
-	- ![how to make angle block](images\recipes\angel_ring\block.png)
+	- ![how to make angle block](images/recipes/angel_ring/block.png)
 - Angel Ring On/ Angel Ring Off
 	- crouch to fly in survival mode, you will be able to fly until you crouch with an angel ring that is off
-	- ![how to make ring](images\recipes\angel_ring\ring.png)
-	- ![how to make ring off](images\recipes\angel_ring\ring_off.png)
+	- ![how to make ring](images/recipes/angel_ring/ring.png)
+	- ![how to make ring off](images/recipes/angel_ring/ring_off.png)
