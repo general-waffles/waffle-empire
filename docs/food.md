@@ -1,0 +1,221 @@
+# List of Food
+- hamburger
+- veganburger 
+- jelly sandwich 
+- round cheese 
+- bacon egg muffin 
+- net he rite apple
+- orange 
+- grape 
+- tomato 
+- banana 
+- lemon 
+- strawberry 
+- tea leaves 
+- plum olive 
+- raspberry 
+- cut fries 
+- wedges pot 
+- cooked wedges 
+- raw hamburger patty 
+- raw veganburger patty 
+- fries 
+- corn on the cob 
+- dough 
+- tomato ketchup 
+- jam 
+- lettuce 
+- hops 
+- vanilla extract 
+- vanilla pod yeast 
+- tomato puree 
+- gherkin 
+- pepper 
+- juices 
+- sodas
+- milkshakes 
+- smoothies 
+- ice crushes 
+- coffees 
+- hot tea 
+- hot cocoa 
+- cereal 
+- coconut milk 
+- sparkling water 
+- toast 
+- sub bun 
+- cut bread 
+- hot dog bun 
+- tortilla 
+- muffin bun 
+- burger bun 
+- pitta bread 
+- pizza base 
+- bread loaf 
+- bat meat 
+- raw squid 
+- hamburger patty 
+- veganburger patty 
+- chicken select 
+- cooked bat 
+- cooked chicken piece 
+- toffee 
+- fried squid
+- sushi 
+- onigiri
+- sashimi 
+- cooked bacon 
+- beef sub 
+- cooked hotdog sausage 
+- chicken sub 
+- cooked sausage 
+- cooked hoglin meat 
+- cheese wedge 
+- milk chocolate 
+- white chocolate 
+- dark chocolate 
+- ice cream cone 
+- jellies 
+- Turkish delight 
+- icecreams 
+- donuts 
+- cupcakes 
+- WAFFLE 
+- pancake 
+- nether cookie
+- pickle 
+- pizza 
+- pizza slice 
+- hotdog 
+- popcorn bucket 
+- taco 
+- chicken fajita
+- burrito 
+- kebab 
+- bacon egg sandwich 
+- breakfast sub 
+- sausage egg muffin
+- sausage egg sandwich 
+- fried egg 
+- cheese toaster 
+- butter 
+- shroomlight slices 
+- milk cartoon
+- cream cartoon 
+- netherwart chicken soup 
+- netherwart mushroom soup 
+- bacon hotdog sausage 
+- raw sausage 
+- hoglin meat 
+- raw wedge 
+- onion 
+- coconut meat 
+- cider 
+- red wine 
+- white wine 
+- beer 
+- pies 
+- pie base 
+- spaghetti 
+- ice bowl 
+- ramen noodles 
+- custard 
+- rice pudding 
+- rotten pork chop 
+- fungus stew 
+- cheese bucket 
+- chocolate cake 
+- red white blue cake 
+- rainbow cake
+- candies 
+- candy corn 
+- candy corn bowl 
+- cooked pumpkin seed
+- cooked salt pumpkin seed 
+- ghost cookie 
+- large and small pumpkin pale 
+- popcorn 
+- wart berries 
+- chicken nugget 
+- cooked chicken nugget 
+- cornflour 
+- flour 
+- gelatin 
+- noodles 
+- oil 
+- pasta 
+- rice 
+- salt
+- beer glass
+- beverage cup 
+- bottle 
+- bottled beer 
+- bottled cider
+- bottled red wine 
+- carton 
+- chicken select box 
+- empty ice crush box 
+- empty popcorn bucket 
+- empty tumbler glass 
+- empty wedges pot 
+- fry wrapper 
+- hot beverage cup 
+- icing 
+- jar 
+- empty soda can 
+- starch 
+- wine glass 
+- empty large and small pumpkin pale 
+- sub wrapper
+- onion seeds 
+- lettuce seeds 
+- hops seeds 
+- grape seeds 
+- gherkin seeds 
+- barley seeds 
+- vanilla seeds 
+- tomato seeds 
+- tea seeds 
+- strawberry seeds 
+- rice seeds 
+- raspberry seeds 
+- coffee beans 
+- pepper seeds 
+- corn 
+- palm sapling 
+- apple sapling 
+- banana sapling 
+- lemon sapling 
+- olive sapling 
+- orange sapling 
+- plum sapling 
+- apple block 
+- baked potato block 
+- banana block 
+- carrot block 
+- chocolate cake 
+- cooked beef block 
+- cooked mutton 
+- cooked rabbit 
+- cooked squid 
+- cookie 
+- dark chocolate
+- golden apple 
+- grape 
+- hops 
+- lemon 
+- milk chocolate 
+- olive 
+- plum 
+- potato 
+- rainbow cake 
+- raspberry 
+- raw beef 
+- raw chicken 
+- raw mutton 
+- raw rabbit 
+- raw squid 
+- red white blue cake 
+- strawberry 
+- tomato 
+- white chocolate
