@@ -796,6 +796,99 @@
     },
     "wooden_spoon": {
       "textures": "textures/tools/wooden_spoon"
+    },
+    
+    "megumin": {
+      "textures": [
+        "textures/items/megumin.png"
+      ]
+    },
+    "aqua": {
+      "textures": "textures/items/aqua.png"
+    },
+          "rachel": {
+      "textures": "textures/items/rachel.png" 
+    },
+    "rem": {
+      "textures": "textures/items/rem.png"
+    },
+    "mikasa": {
+        "textures": "textures/items/mikasa"
+    },
+    "asuka": {
+        "textures": "textures/items/asuka.png"
+    },
+    "asuna": {
+        "textures": "textures/items/asuna.png"
+    },
+    "chika": {
+        "textures": "textures/items/chika.png"
+    },
+    "ikaros": {
+        "textures": "textures/items/ikaros.png"
+    },
+    "emilia": {
+        "textures": "textures/items/emilia.png"   
+        },
+    "aoiasashina": {
+        "textures": "textures/items/aoiasashina"
+    },
+    "bronya": {
+        "textures": "textures/items/bronya" 
+    },
+    "rikka": {
+        "textures": "textures/items/rikka"
+    },
+    "yaesakura": {
+        "textures": "textures/items/yaesakura" 
+    },
+    "nezuko": {
+        "textures": "textures/items/nezuko"
+    },
+    "ochako": {
+        "textures": "textures/items/ochako"
+    },
+    "ram": {
+        "textures": "textures/items/ram" 
+    },
+    "hinata": {
+        "textures": "textures/items/hinata"  
+    },
+    "ene": {
+        "textures": "textures/items/ene"
+    },
+    "liliruca": {
+        "textures": "textures/items/liliruca"
+    },
+    "zerotwo": {
+        "textures": "textures/items/zerotwo"
+    },
+    "annie": {
+        "textures": "textures/items/annie"
+    },
+    "kyoukokirigi": {
+        "textures": "textures/items/kyokokirigi" 
+    },
+    "kirie": {
+        "textures": "textures/items/kirie"
+    },
+    "sagiri": {
+        "textures": "textures/items/sagiri"
+    },
+    "elizabeth": {
+        "textures": "textures/items/elizabeth"
+    },
+    "speedwagon": {
+        "textures": "textures/items/speedwagon" 
+    },
+    "rei": {
+        "textures": "textures/items/rei"
+    },
+    "rukia": {
+        "textures": "textures/items/rukia"
+    },
+    "senko": {
+        "textures": "textures/items/senko"
     }
   }
 }

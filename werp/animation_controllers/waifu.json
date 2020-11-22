@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.waifu.attack": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "attack": "variable.attack>0"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "attack": {
+          "animations": [
+            "attacking"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    }
+  }
+}

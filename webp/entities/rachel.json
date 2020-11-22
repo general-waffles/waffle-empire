@@ -1,0 +1,250 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "we:rachel",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    
+    "component_groups": {
+      "minecraft:tntYeeter_wild": {
+       "minecraft:type_family": {
+        "family": [ "waifu" ]
+      },         "minecraft:behavior.nearest_attackable_target": {
+          "priority": 1,
+          "entity_types": [
+            {
+             "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "undead"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "villager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "skeleton"
+                }
+              ]
+            },
+              "max_dist": 50
+            }
+          ],
+          "must_see": true,
+          "must_reach": true
+        },       "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {  
+                 "other_without_families": [ "rachel" ]
+               }
+             }
+           ]
+         }
+       },
+      
+      "minecraft:tntYeeter_tame": {
+        "minecraft:is_tamed": {
+        },
+        "minecraft:type_family": {
+        "family": ["waifu_tamed"]
+      },
+        "minecraft:healable": {
+        "items": [
+          {
+            "item": "tt",
+            "heal_amount": 15
+          }
+        ]
+      },
+        "minecraft:behavior.follow_owner": {
+          "priority": 6,
+          "speed_multiplier": 1.0,
+          "start_distance": 6,
+          "stop_distance": 2
+        },
+        "minecraft:behavior.owner_hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.owner_hurt_target": {
+          "priority": 2
+         },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 1,
+          "entity_types": [
+            {
+             "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                }
+              ]
+            },
+              "max_dist": 50
+            }
+          ],
+          "must_see": true,
+          "must_reach": true
+        },
+
+        "minecraft:sittable": {
+        },     "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {  
+                 "other_without_families": [ "waifu_tamed" ]
+               }
+             }
+           ]
+         },
+
+        "minecraft:lAzyaifushable": {
+          "soft_distance": 4.0,
+          "hard_distance": 6.0,
+          "max_distance": 10.0,
+          "on_leash": {
+            "event": "minecraft:on_leash",
+            "target": "self"
+          },
+          "on_unleash": {
+            "event": "minecraft:on_unleash",
+            "target": "self"
+          }
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 2.0
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesWater": true
+      },
+
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/er.json"
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_path_over_water": true,
+        "can_pass_doors": false,
+        "can_open_doors": false,
+        "can_walk": true,
+        "avoid_water": false
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:tameable": {
+          "probability": 1,
+          "tameItems": "red_flower",
+          "tame_event": {
+            "event": "minecraft:on_tame",
+            "target": "self"
+          }
+        },
+      "minecraft:damage_sensor": 
+        {
+          "on_damage": {
+            "filters": {
+               "other_with_families": [ "tnt" ]
+           }
+         },
+         "deals_damage": false
+        },
+      "minecraft:shooter": {
+        "type": "bullet",
+        "def": "tim:bullet"
+      },
+      "minecraft:behavior.ranged_attack": {
+        "attack_interval_min": 1.4,
+        "attack_interval_max": 1.4,
+        "attack_radius": 50,
+        "burst_shots": 1,
+        "burst_interval": 1.4,
+        "charge_charged_trigger": 1.4,
+        "charge_shoot_trigger": 1.4
+      },
+      "minecraft:behavior.tempt": {
+        "priority": 4,
+        "speed_multiplier": 1.0,
+        "items": [
+          "tnt"
+        ]
+      },
+     "minecraft:behavior.float": {
+        "priority": 0
+      },
+
+     "minecraft:behavior.random_stroll": {
+        "priority": 5,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 8
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 6
+      },
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+     "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:tntYeeter_wild"
+          ]
+        }
+      },
+      
+     "minecraft:on_tame": {
+        "remove": {
+          "component_groups": [
+            "minecraft:tntYeeter_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:tntYeeter_tame"
+          ]
+        }
+      }
+    }
+  }
+}

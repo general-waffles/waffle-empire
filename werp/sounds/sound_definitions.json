@@ -1,0 +1,26 @@
+{
+  "mob.waifu.death": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/waifu/death"
+    ]
+  },
+  "mob.waifu.hurt": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/waifu/hurt"
+    ]
+  },
+  "mob.waifu.idle": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/waifu/idle"
+    ]
+  },
+  "mob.zerotwo.darling": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/waifu/darling"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "we:bullet",
+      "materials": { "default": "slime" },
+      "textures": {
+        "default": "textures/bullet"
+      },
+      "geometry": {
+        "default": "geometry.bullet"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 99
+      },
+      "render_controllers": [ "controller.render.saoplayerfemale" ]
+    }
+  }
+}

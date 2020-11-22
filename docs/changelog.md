@@ -4,18 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [BETA]
-
-## [Waffle Empire 1.0.2 - 2020-10-14
+## [Waffle Empire 1.0.2] - 2020-10-14
 ### Added
 - List of [Food](food.md) added in docs
 - stove
-- wooden knive
-- stone knive
-- iron knive
-- golden knive
-- diamond knive
-- neither knives
+- wooden knife
+- stone knife
+- iron knife
+- golden knife
+- diamond knife
+- neither knife
 - wooden spoon
 
 

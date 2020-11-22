@@ -1,0 +1,64 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "we:bullet",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:egg"
+		},
+
+		"components": {
+			"minecraft:type_family": {
+				"family": ["bullet"]
+			},
+			"minecraft:collision_box": {
+				"width": 0.01,
+				"height": 0.01
+			},
+            "minecraft:scale": {
+              "value":0.6
+            },
+            "minecraft:spawn_entity": [
+              {
+                "min_wait_time": 0,
+                "max_wait_time": 0,
+                "single_use": true,
+                "spawn_entity": "xx:xx",
+                "spawn_sound": "purr",
+                "num_to_spawn": 1
+              }
+            ],
+            "minecraft:explode": {
+            "fuseLength": 2.2,
+            "fuseLit": true,
+            "power": 0,
+            "causesFire": false
+            },
+			"minecraft:projectile": {
+				"onHit": {
+					"impact_damage": {
+	    				"damage": [ 7, 9 ],
+						"knockback": false,
+						"destroyonhit": true
+					},
+					"remove_on_hit": {}
+				},
+				"power": 2.5,
+				"gravity": 0,
+				"inertia": 1.5,
+				"uncertaintyBase": 6,
+				"uncertaintyMultiplier": 6,
+				"offset": [0, 0, 0],
+				"reflectOnHurt": true,
+				"catch_fire": false
+			},
+            "minecraft:pushable": {
+              "is_pushable": false,
+              "is_pushable_by_piston": true
+            },
+			"minecraft:physics": {}
+		}
+	}
+}

@@ -1,0 +1,372 @@
+{
+	"entity_sounds": {
+		"entities": {
+		"we:megumin": {
+		"volume": 1.0,
+        "pitch": [ 1.0 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 1.0
+			}
+		}
+	},
+			"we:yaekas": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+           }
+		}
+	},
+			"we:rukia": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+           }
+		}
+	},
+			"we:rachel": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+           }
+		}
+	},
+	
+			"we:liliruca": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+           }
+		}
+	},
+			"we:rikka": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0 
+			}
+		}
+	},
+			"we:yaekasumi": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+           }
+		}
+	},
+			"we:ikaros": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+           }
+		}
+	},
+			"we:aoiasashina": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+           }
+		}
+	},
+	
+			"we:asuka": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0 
+           }
+		}
+	},
+			"we:rei": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:ochako": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+				"we:sagiri": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	}, 
+				"we:kyoukokirigiri": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+				"we:mikasa": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:aqua": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:asuna": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:bronya": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:hinata": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:ram": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:rem": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:emilia": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+		"we:chika": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:nezuko": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "nezukonoises",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	}, 
+			"we:elizabeth": {
+		"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.waifu.idle",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+		}
+	},
+			"we:zerotwo": {
+				"volume": 1.0,
+        "pitch": [ 1 ],
+        "events": {
+          "ambient": "mob.zerotwo.darling",
+          "hurt": "mob.waifu.hurt",
+          "death": "mob.waifu.death",
+           "step": {
+            "sound": "mob.cow.step",
+            "volume": 1.0,
+            "pitch": 0.0
+			}
+			}
+			}
+		}
+	}
+}
