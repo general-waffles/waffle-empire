@@ -4,6 +4,42 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [Waffle Empire 1.0.23 - 2020-11-22
+### Added
+- Added Waifus
+    - Aoi asashina
+    - Annie
+    - Aqua
+    - Asuka
+    - Asuna
+    - Bronya
+    - Chika
+    - Elizabeth
+    - Emilia
+    - Ene
+    - Hinata
+    - Ikaros
+    - Kirie
+    - Kyoko Kirigiri
+    - liliruca
+    - Megumin
+    - Mikasa
+    - Nezuko
+    - Ochako
+    - Rachel
+        - shoots from pistol 
+    - Ram
+    - Rem
+    - Rei
+    - Rikka
+    - Rukia 
+    - Sagiri
+    - Senko
+    - Yae Sakura
+    - Speedwagon
+    - Zero Two 
+- You can tame the waifus using “poppy”
+
 ## [Waffle Empire 1.0.2] - 2020-10-14
 ### Added
 - List of [Food](food.md) added in docs
